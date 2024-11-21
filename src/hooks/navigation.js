@@ -15,10 +15,6 @@ export function useNavigation() {
         navigate("/signup");
     };
 
-    const goToMypage = () => {
-        navigate("/mypage");
-    };
-
     const goToIntro = () => {
         navigate("/intro");
     };
@@ -73,7 +69,6 @@ export function useNavigation() {
         goToHome,
         goToSignIn,
         goToSignUp,
-        goToMypage,
         goToIntro,
         goToComputer,
         goToSmartphone,

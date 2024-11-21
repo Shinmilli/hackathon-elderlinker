@@ -25,7 +25,7 @@ export default Quiz;
 
 const MainWrap = styled.div`
     width: 100%;
-    height: calc(100vh - 90px - 130px);
+    height: 660px;
     background-image: url("https://kr.object.ncloudstorage.com/elderlinker/main-quiz.png");
     background-size: cover;
     background-position: left center;

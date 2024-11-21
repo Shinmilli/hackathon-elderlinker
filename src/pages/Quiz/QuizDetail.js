@@ -109,7 +109,7 @@ const QuizContainer = styled.div`
     align-items: center;
     gap: 20px;
     width: 100%;
-    height: calc(100vh - 90px - 130px);
+    height: 660px;
     background-color: #f3fbff;
 
     ${media.tablet`

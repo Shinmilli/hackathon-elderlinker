@@ -68,6 +68,9 @@ const Intro = styled.div`
 const Content = styled.div`
     width: 100%;
     height: 660px;
+     ${media.tablet`
+    height: 500px;
+`}
 `;
 
 const Wrap = styled.div`
@@ -80,6 +83,7 @@ const Wrap = styled.div`
         flex-direction: column;
         justify-content: center;
         text-align: right;
+        height: 100%;
     }
 
     ${Content} > & {
