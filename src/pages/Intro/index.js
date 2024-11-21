@@ -44,19 +44,6 @@ function Intro() {
                     <ServiceImage src="https://kr.object.ncloudstorage.com/elderlinker/intro-gym.png"></ServiceImage>
                 </ServiceBox>
             </Service>
-            <DotWrap>
-                <Dot></Dot>
-                <Dot></Dot>
-                <Dot></Dot>
-            </DotWrap>
-            <BadgeWrap>
-                <BadgeTitle>마이 뱃지</BadgeTitle>
-                <BadgeDesc>
-                    위 과제들을 수행하면 마이 페이지에서 마이 뱃지를 얻으실 수
-                    있습니다.
-                </BadgeDesc>
-                <BadgeImage src="https://kr.object.ncloudstorage.com/elderlinker/intro-badge.png"></BadgeImage>
-            </BadgeWrap>
         </IntroWrap>
     );
 }

@@ -92,25 +92,26 @@ function Header() {
                     >
                         체조 영상
                     </FirstLi>
-                    <Divider />
-                    <FirstLi
+                
+                    {/*<FirstLi
                         isClickable={true}
                         onClick={() => handleNavigation("/mypage")}
                         isActive={currentPage === "mypage"}
                     >
                         마이페이지
-                    </FirstLi>
+                    </FirstLi>*/}
                 </FirstUl>
             </NavWrap>
-            <ButtonWrap>
+            <ButtonWrap></ButtonWrap>
+            {/*<ButtonWrap>
                 <SignButton onClick={() => handleNavigation("/signin")}>
                     로그인
                 </SignButton>
                 <SignButton onClick={() => handleNavigation("/signup")}>
                     회원가입
                 </SignButton>
-                {/* <SignButton>로그아웃</SignButton> */}
-            </ButtonWrap>
+                <SignButton>로그아웃</SignButton>
+            </ButtonWrap>*/}
 
             {isHamburgerOpen && (
                 <HamburgerMenu $isOpen={isHamburgerOpen}>

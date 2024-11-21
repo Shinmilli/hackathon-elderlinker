@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { media } from "../../styles/mixin";
-import backgroundImage from "../../assets/image/체조 메인이미지.png"
+import backgroundImage from "../../assets/image/gymMainImage.png"
 
 function Gym() {
     return (
@@ -46,7 +46,7 @@ const Wrap = styled.div``;
 const Intro = styled.div`
     width: 100%;
     height: 950px;
-    background-image: ${backgroundImage};
+    background-image: url(${backgroundImage});
     background-size: cover;
     background-position: center center;
 
