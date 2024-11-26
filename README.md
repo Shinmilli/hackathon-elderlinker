@@ -1,5 +1,5 @@
 ## 실행방법
-npm install
+npm install<br>
 npm start
 
 <p align="center">
