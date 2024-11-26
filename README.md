@@ -1,3 +1,7 @@
+## 실행방법
+<p>npm install</p>
+<p>npm start</p>
+
 <p align="center">
     <img src="public/logo.png" width="250"/>
 </p>
