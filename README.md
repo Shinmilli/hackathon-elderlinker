@@ -1,6 +1,6 @@
 ## 실행방법
-<p>npm install</p>
-<p>npm start</p>
+npm install
+npm start
 
 <p align="center">
     <img src="public/logo.png" width="250"/>
